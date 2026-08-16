@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sysevent_register">
+    <sysevent_register action="INSERT_OR_UPDATE">
+        <caller_access/>
+        <derived_priority>100</derived_priority>
+        <description>Used to tigger an email to remind a user to pick up their loaner item.</description>
+        <event_name>x_cdltd_loaner_r_0.PickUp</event_name>
+        <fired_by>Scheduled Script Execution : Loaner item Pick Up</fired_by>
+        <priority>100</priority>
+        <queue/>
+        <suffix>PickUp</suffix>
+        <sys_class_name>sysevent_register</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-08-16 18:01:15</sys_created_on>
+        <sys_id>ff36f8b4857a03107f4405327b6da781</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_cdltd_loaner_r_0.PickUp</sys_name>
+        <sys_package display_value="Loaner Request" source="x_cdltd_loaner_r_0">fb035a64857203107f4405327b6da7e3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Request">fb035a64857203107f4405327b6da7e3</sys_scope>
+        <sys_update_name>sysevent_register_ff36f8b4857a03107f4405327b6da781</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-08-16 18:01:15</sys_updated_on>
+        <table>x_cdltd_loaner_r_0_loaner_request</table>
+    </sysevent_register>
+</record_update>

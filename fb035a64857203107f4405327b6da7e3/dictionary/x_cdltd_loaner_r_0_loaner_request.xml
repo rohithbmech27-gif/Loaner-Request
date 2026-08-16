@@ -9,6 +9,7 @@
                 <element inactive_on_update="false" label="Mobile Phone" sequence="1" value="cmdb_ci_mobile_device"/>
             </choice>
         </element>
+        <element label="Pick up reminder" max_length="255" name="pick_up_reminder" type="glide_date_time"/>
         <element label="End date" mandatory="true" max_length="255" name="end_date" type="glide_date_time"/>
         <element label="Requested for" mandatory="true" max_length="32" name="requested_for" reference="sys_user" type="reference"/>
         <element choice="1" default="sc" label="Depot" max_length="40" name="depot" type="choice">
